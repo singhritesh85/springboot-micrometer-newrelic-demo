@@ -59,6 +59,7 @@ Run Below Commands to execute it on EC2 or VM
 ======================================================================================================================================================
 ======================================================================================================================================================
 
+
 cd springboot-micrometer-newrelic-demo
 mvn clean install
 curl -O https://download.newrelic.com/newrelic/java-agent/newrelic-agent/current/newrelic-java.zip
@@ -66,6 +67,8 @@ unzip newrelic-java.zip
 Add the License Key and App Name in newrelic/newrelic.yml file
 mvn clean install
 java -javaagent:newrelic/newrelic.jar -jar target/micrometer-new-relic-0.0.1-SNAPSHOT.jar
+
+
 
 ======================================================================================================================================================
 ======================================================================================================================================================
